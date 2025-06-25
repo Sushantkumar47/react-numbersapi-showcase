@@ -49,18 +49,18 @@ This will start the application at `http://localhost:3000`.
 ## 📁 Project Structure
 
 ```
-numberverse/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── LoginForm.tsx
-│   │   └── LandingPage.tsx
-│   ├── styles/
-│   │   └── LandingPage.css
-│   ├── App.tsx
-│   ├── index.tsx
-├── package.json
-├── README.md
+react-numbersapi-showcase/
+├── public/                 
+├── src/                   
+│   ├── LoginForm.tsx        
+│   ├── LandingPage.tsx     
+│   ├── LandingPage.css      
+│   ├── App.tsx            
+│   └── index.tsx           
+├── package.json            
+├── README.md               
+├── DEPLOYMENT.md            
+├── LEARNING_JOURNEY.md     
 ```
 
 ---
