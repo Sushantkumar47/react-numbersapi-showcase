@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Updated gradient */
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Slightly softer shadow for light bg */
+  max-width: 600px;
+  width: 90%;
+  color: #222; /* Use dark text for better contrast on light background */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #357ab8;
+}
+.logo {
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.15));
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.fact-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fact-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+ color: #333;
+}
+
+.refresh-btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #4b6cb7;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.refresh-btn:hover {
+  background-color: #f0f0ff;
+  transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
