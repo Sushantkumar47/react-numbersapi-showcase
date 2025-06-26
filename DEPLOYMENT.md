@@ -62,8 +62,6 @@ For platforms like **Vercel** and **Netlify**, connect your GitHub repo to enabl
 
 | Platform     | Status | Auto Deploy | HTTPS | Free Tier |
 |--------------|--------|-------------|-------|-----------|
-| Vercel       | ✅     | ✅          | ✅    | ✅         |
-| Netlify      | ✅     | ✅          | ✅    | ✅         |
 | GitHub Pages | ✅     | ❌          | ✅    | ✅         |
 
 ---
