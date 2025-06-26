@@ -16,37 +16,9 @@ This will create an optimized production-ready version of the application inside
 
 ---
 
-## 🛠️ Deployment Options
+## 🛠️ Deployment 
 
-You can deploy the project using any static hosting service. Below are some common options:
-
----
-
-### ✅ Option 1: **Vercel**
-
-**Steps:**
-
-1. Go to [https://vercel.com](https://vercel.com)
-2. Connect your GitHub repository
-3. Import the `numberverse` project
-4. Vercel will auto-detect the React app and build it
-5. Hit **Deploy**
-
----
-
-### ✅ Option 2: **Netlify**
-
-**Steps:**
-
-1. Go to [https://netlify.com](https://netlify.com)
-2. Drag and drop the `/build` folder
-3. Or, connect a GitHub repo and select build command:
-   - Build command: `npm run build`
-   - Publish directory: `build`
-
----
-
-### ✅ Option 3: **GitHub Pages**
+ **GitHub Pages**
 
 **Steps:**
 
