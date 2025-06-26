@@ -50,11 +50,6 @@ This will create an optimized production-ready version of the application inside
 - **HTTPS:** Use a secure HTTPS environment to avoid browser warnings.
 - **Routing:** This app uses `react-router-dom`. Make sure your host supports client-side routing or configure redirects appropriately.
 
----
-
-## 🔄 Continuous Deployment
-
-For platforms like **Vercel** and **Netlify**, connect your GitHub repo to enable automatic deployments on push to `main` or `master`.
 
 ---
 
