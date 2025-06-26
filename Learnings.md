@@ -1,4 +1,4 @@
-# 📘 Learning Journey – Numberverse Project (Beginner Reflection)
+# 📘 Learning Journey – Numberverse Project 
 
 This file documents my personal learning experience while building the **Numberverse** project. I am a developer with no prior professional experience, and this project helped me explore multiple real-world concepts in React, TypeScript, form validation, and API integration.
 
